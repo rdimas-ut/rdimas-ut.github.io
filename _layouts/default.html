@@ -3,33 +3,38 @@
 <head>
 	<title>Ruben Dimas</title>
 
-    <link href="css/index.css" rel="stylesheet">
+    <link href="{{ "/css/index.css" | relative_url }}" rel="stylesheet">
 </head>
 
 <body>
 	<header style="background-color: #C9674B;">
         <div class="nav-bar">
             <nav class="nav-bar-right">
-                <a class="nav-bar-name" href="">
+                <a class="nav-bar-name" href="/">
                     <span>
                         Ruben Dimas
                     </span>
                 </a>
             </nav>
             <nav class="nav-bar-left">
-                <a class="nav-bar-link" href="">
+                <a class="nav-bar-link" href="/projects/">
                     <span>
                         Projects
                     </span>
                 </a>
-                <a class="nav-bar-link" href="">
+                <a class="nav-bar-link" href="/blog/">
                     <span>
                         Blog
                     </span>
                 </a>
-                <a class="nav-bar-link" href="">
+                <a class="nav-bar-link" href="/about/">
                     <span>
                         About
+                    </span>
+                </a>
+                <a class="nav-bar-link" href="https://github.com/rdimas-ut">
+                    <span>
+                        Github
                     </span>
                 </a>
             </nav>
@@ -41,12 +46,22 @@
                     <div class="main-page-intro">
                         <h1 style="font-size: 3em;">Howdy, RD</h1>
                         <p> Well hello there.</p>
+                        {{ content }}
                     </div>
                 </header>
             </div>
         </article>
     </main>
-    <footer></footer>
+    <footer>
+        <section>
+            <nav>
+                <a class="footer-bar-link" href="">Made by Me</a>
+            </nav>
+            <nav>
+                <a class="footer-bar-link" href="">Made by Me</a>
+            </nav>
+        </section>
+    </footer>
 </body>
 
 </html>

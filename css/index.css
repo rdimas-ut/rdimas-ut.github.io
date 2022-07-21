@@ -30,7 +30,7 @@ section {
 
 .main-page-intro {
     max-width: 1112px;
-    padding: 32px;
+    padding: 0 24px;
     margin: 0 auto;
     display: flex;
     flex-flow: column;
@@ -59,6 +59,12 @@ section {
     text-decoration: none;
     color: inherit;
     padding: 8px;
+    background-color: transparent;
+}
+
+.nav-bar-link:hover {
+    border-bottom-color: purple;
+    color: #ffd7d7;;
 }
 
 .nav-bar-name {
@@ -70,4 +76,10 @@ section {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+.home-page-blocks {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: auto 280px;
 }

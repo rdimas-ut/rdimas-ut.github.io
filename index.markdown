@@ -4,3 +4,10 @@
 
 layout: default
 ---
+<div class="home-page-blocks" >
+    <header>
+    <h1 style="font-size: 2.6em;">Howdy 🐋</h1>
+    <p style="max-width: 550px;" > Welcome and good day! This is my personal website. Don't mind the mess, there is still work to do on the content of this site. Until then check out my github for some of the personal projects I've worked/work on. </p>
+    </header>
+    <img src="assets/ut_austin_tower.jpg" alt="UT Austin Tower">
+</div>

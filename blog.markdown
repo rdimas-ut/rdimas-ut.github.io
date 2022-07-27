@@ -1,7 +1,15 @@
 ---
 layout: page
-title: Blog
 permalink: /blog/
 ---
+<h1 style="font-size: 2.6em;">Blog</h1>
 
-This is where the blog comes in
+<section>
+    <h2>2022</h2>
+    <div>
+        <a></a>
+        <a></a>
+        <a></a>
+        <a></a>
+    </div>
+</section>

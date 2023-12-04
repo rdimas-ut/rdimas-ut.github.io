@@ -1,3 +1,9 @@
+:root {
+    /* Colors */
+    --heading-color: white;
+    
+}
+
 body {
     color: white;
     background-color: #9498B3;
